@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className="text-white navbar bg-gradient-to-b from-indigo-900 to-white  bg-base-100 text-purple">
+        <nav className="text-white navbar bg-gradient-to-b from-indigo-400 via-grey-100 to-white  bg-base-100 text-purple ">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">Viraj</a>
             </div>
