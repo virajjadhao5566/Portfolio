@@ -1,12 +1,14 @@
+'use client'
+import Experience from '@/components/Experience/Experience'
 import About from '@/components/About/About'
-import NumberSection from '@/components/NumberSection/NumberSection'
-import Image from 'next/image'
+import Homes from '@/components/Home/Home'
 
 export default function Home() {
   return (
     <main className='font-mono'>
+      <Homes/>
       <About/>
-      <NumberSection/>
+      <Experience/>
     </main>
   )
 }

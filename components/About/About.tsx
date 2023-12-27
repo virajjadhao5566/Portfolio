@@ -1,11 +1,11 @@
 import React from 'react'
-import AboutCard from './AboutCard'
+import NumberSection from './NumberSection'
 
-const About = () => {
+const About= () => {
   return (
-    <main className='flex flex-row justify-center'>
-      <AboutCard/>
-    </main>
+    <div id='about' className=' border-1 border-red-950'>
+      <NumberSection/>
+    </div>
   )
 }
 
